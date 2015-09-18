@@ -1,0 +1,6 @@
+.form-group{
+   /* padding-bottom: 2vw;*/
+}
+div#ccwidget .form-group{
+    padding-bottom: inherit;
+}

@@ -1,0 +1,223 @@
+<div class="index-page">
+    <header><h1><%= Title %></h1></header>
+    <div class="row">
+        <div class="col-md-8">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Settings</h3>
+                    <span class="pull-right"><i class="fa fa-cogs fa-2x"></i></span>
+                </div>
+                <div class="panel-body">
+                    <div class="col-md-12">
+                        <form class="form-horizontal" role="form">
+                            <div class="form-group">
+                                <label class="col-md-4">Title</label>
+
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" placeholder="Currency Converter"
+                                           name="widgetTitle" id="widgetTitle" data-field-value="yes"
+                                           data-field-name="widgetTitle"/>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-4">Title Color</label>
+
+                                <div class="col-md-5">
+
+                                    <div data-color-format="rgba"
+                                         class="input-group colorpicker-element colorpicker-default color">
+                                        <input type="text" readonly="" class="form-control" data-type="color"
+                                               data-field-value="yes" data-field-name="widgetTitleClr"
+                                               name="widgetTitleClr"
+                                               id="widgetTitleClr"
+                                               value="rgba(60, 118, 61,1)"/>
+                                              <span class="input-group-addon">
+                                                      <i></i>
+                                              </span>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-4">Title Background</label>
+
+                                <div class="col-md-5">
+
+                                    <div data-color-format="rgba"
+                                         class="input-group colorpicker-element colorpicker-default color">
+                                        <input type="text" readonly="" class="form-control" data-type="color"
+                                               data-field-value="yes" data-field-name="widgetTitleBgClr"
+                                               name="widgetTitleBgClr" id="widgetTitleBgClr"
+                                               value="rgba(223, 240, 216,1)"/>
+                                              <span class="input-group-addon">
+                                                      <i></i>
+                                              </span>
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+
+                      <!--  </form>
+                    </div>
+                    <div class="col-md-6">
+                        <form class="form-horizontal" role="form"> -->
+                            <div class="form-group">
+                                <label class="col-md-4">Body Background</label>
+
+                                <div class="col-md-5">
+
+                                    <div data-color-format="rgba"
+                                         class="input-group colorpicker-element colorpicker-default color">
+                                        <input type="text" readonly="" class="form-control" data-type="color"
+                                               data-field-value="yes" data-field-name="widgetBodyBgClr"
+                                               name="widgetBodyBgClr" id="widgetBodyBgClr"
+                                               value="rgba(255,255,255,1)"/>
+                                              <span class="input-group-addon">
+
+                                                      <i ></i>
+
+                                              </span>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-4">Result Color</label>
+
+                                <div class="col-md-5">
+
+                                    <div data-color-format="rgba"
+                                         class="input-group colorpicker-element colorpicker-default color">
+                                        <input type="text" readonly="" class="form-control" data-type="color"
+                                               data-field-value="yes" data-field-name="widgetResultClr"
+                                               name="widgetResultClr" id="widgetResultClr"
+                                               value="rgba(34,34,34,1)"/>
+                                              <span class="input-group-addon">
+                                                      <i></i>
+                                              </span>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-4">Result Background</label>
+
+                                <div class="col-md-5">
+
+                                    <div data-color-format="rgba"
+                                         class="input-group colorpicker-element colorpicker-default color">
+                                        <input type="text" readonly="" class="form-control" data-type="color"
+                                               data-field-value="yes" data-field-name="widgetResultBgClr"
+                                               name="widgetResultBgClr" id="widgetResultBgClr"
+                                               value="rgba(221, 221, 221,1)"/>
+                                              <span class="input-group-addon">
+                                                      <i></i>
+                                              </span>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-4">Footer Background</label>
+
+                                <div class="col-md-5">
+
+                                    <div data-color-format="rgba"
+                                         class="input-group colorpicker-element colorpicker-default color">
+                                        <input type="text" readonly="" class="form-control" data-type="color"
+                                               data-field-value="yes" data-field-name="widgetFooterBgClr"
+                                               name="widgetFooterBgClr" id="widgetFooterBgClr"
+                                               value="rgba(48, 50, 102,1)"/>
+                                              <span class="input-group-addon">
+                                                      <i></i>
+                                              </span>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-4">Footer Image Url</label>
+
+                                <div class="col-md-6">
+                                    <input type="url" class="form-control" placeholder="htp://www.example.com/image.png"
+                                           name="widgetFooterImg" id="widgetFooterImg" data-field-value="yes"
+                                           data-field-name="widgetFooterImg"/>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-4">Footer Link</label>
+
+                                <div class="col-md-6">
+                                    <input type="url" class="form-control" placeholder="htp://www.example.com/"
+                                           name="widgetFooterUrl" id="widgetFooterUrl" data-field-value="yes"
+                                           data-field-name="widgetFooterUrl"/>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-4">Base Currency <span class="small">(Optional)</span> </label>
+
+                                <div class="col-md-6">
+                                    <select id="widgetBaseCurr" class="currency selectpicker show-tick form-control">
+                                        <option value="0">Not Selected</option>
+                                        <option value="EUR" data-value="1">EUR - Euro</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="panel-footer">
+                    <div class="row-span text-right">
+                        <input type="button" class="btn btn-primary btn-info" value="Generate Widget"
+                               id="btnWidgetGen"/>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="row">
+            <div class="col-md-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Preview</h3>
+                        <span class="pull-right"><i class="fa fa-object-group fa-2x"></i></span>
+                    </div>
+                    <div class="panel-body" id="previewPanel">
+                        <%= this.widgetModel.widgetEmbedCode %>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-md-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Embed Code</h3>
+                        <span class="pull-right"><i class="fa fa-code fa-2x"></i></span>
+                    </div>
+                    <div class="panel-body">
+                        <label class="label-info">Copy and paste this code to your web site : </label>
+
+                            <textarea class="form-control" id="widgetEmbedCode" rows="5"><%= this.widgetModel.widgetEmbedCode %></textarea>
+
+                    </div>
+                    <div class="panel-footer" style="display: none">
+                        <div class="row-span">
+                            <input type="button" class="btn btn-primary btn-info" value="Copy to Clipboard"
+                                   id="btnCopyToClipboard"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
